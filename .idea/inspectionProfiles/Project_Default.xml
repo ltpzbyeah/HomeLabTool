@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="test3.n0" />
+          <option value="pyecharts.Map" />
+          <option value="pyecharts.Geo" />
+          <option value="test2.student2" />
+          <option value="test2.student3" />
+          <option value="test2.student4" />
+          <option value="test2.student5" />
+          <option value="test2.student6" />
+          <option value="test2.student1" />
+          <option value="test2.student8" />
+          <option value="test2.student7" />
+          <option value="UpdateLeancloud.student1" />
+          <option value="UpdateLeancloud.student7" />
+          <option value="UpdateLeancloud.student2" />
+          <option value="UpdateLeancloud.student3" />
+          <option value="UpdateLeancloud.student4" />
+          <option value="UpdateLeancloud.student5" />
+          <option value="UpdateLeancloud.student6" />
+          <option value="UpdateLeancloud.student8" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>HomeLabTool</class>
+    <widget class="QWidget" name="HomeLabTool">
+        <property name="windowModality">
+            <enum>Qt::NonModal</enum>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>664</width>
+                <height>504</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>664</width>
+                <height>500</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>664</width>
+                <height>504</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>HomeLabTool</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+            <property name="spacing">
+                <number>1</number>
+            </property>
+            <property name="leftMargin">
+                <number>1</number>
+            </property>
+            <property name="topMargin">
+                <number>1</number>
+            </property>
+            <property name="rightMargin">
+                <number>1</number>
+            </property>
+            <property name="bottomMargin">
+                <number>1</number>
+            </property>
+            <item>
+                <widget class="QWidget" name="widget_5" native="true">
+                    <property name="minimumSize">
+                        <size>
+                            <width>664</width>
+                            <height>502</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>664</width>
+                            <height>502</height>
+                        </size>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <pointsize>12</pointsize>
+                        </font>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_18">
+                        <property name="spacing">
+                            <number>2</number>
+                        </property>
+                        <property name="leftMargin">
+                            <number>2</number>
+                        </property>
+                        <property name="topMargin">
+                            <number>2</number>
+                        </property>
+                        <property name="rightMargin">
+                            <number>2</number>
+                        </property>
+                        <property name="bottomMargin">
+                            <number>2</number>
+                        </property>
+                        <item>
+                            <layout class="QVBoxLayout" name="verticalLayout_10">
+                                <property name="spacing">
+                                    <number>1</number>
+                                </property>
+                                <item>
+                                    <layout class="QHBoxLayout" name="horizontalLayout">
+                                        <property name="spacing">
+                                            <number>1</number>
+                                        </property>
+                                        <item>
+                                            <widget class="QWidget" name="widget" native="true">
+                                                <property name="font">
+                                                    <font>
+                                                        <pointsize>12</pointsize>
+                                                    </font>
+                                                </property>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                                                    <property name="spacing">
+                                                        <number>1</number>
+                                                    </property>
+                                                    <property name="leftMargin">
+                                                        <number>1</number>
+                                                    </property>
+                                                    <property name="topMargin">
+                                                        <number>1</number>
+                                                    </property>
+                                                    <property name="rightMargin">
+                                                        <number>1</number>
+                                                    </property>
+                                                    <property name="bottomMargin">
+                                                        <number>1</number>
+                                                    </property>
+                                                    <item>
+                                                        <layout class="QHBoxLayout" name="horizontalLayout_13">
+                                                            <property name="spacing">
+                                                                <number>1</number>
+                                                            </property>
+                                                            <item>
+                                                                <widget class="QLineEdit" name="lineEdit_search">
+                                                                    <property name="minimumSize">
+                                                                        <size>
+                                                                            <width>0</width>
+                                                                            <height>35</height>
+                                                                        </size>
+                                                                    </property>
+                                                                    <property name="font">
+                                                                        <font>
+                                                                            <family>微软雅黑</family>
+                                                                            <pointsize>12</pointsize>
+                                                                        </font>
+                                                                    </property>
+                                                                </widget>
+                                                            </item>
+                                                            <item>
+                                                                <widget class="QPushButton" name="pushButton_search">
+                                                                    <property name="minimumSize">
+                                                                        <size>
+                                                                            <width>0</width>
+                                                                            <height>35</height>
+                                                                        </size>
+                                                                    </property>
+                                                                    <property name="font">
+                                                                        <font>
+                                                                            <family>微软雅黑</family>
+                                                                            <pointsize>12</pointsize>
+                                                                        </font>
+                                                                    </property>
+                                                                    <property name="text">
+                                                                        <string>搜索</string>
+                                                                    </property>
+                                                                </widget>
+                                                            </item>
+                                                        </layout>
+                                                    </item>
+                                                </layout>
+                                            </widget>
+                                        </item>
+                                    </layout>
+                                </item>
+                                <item>
+                                    <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,7">
+                                        <property name="spacing">
+                                            <number>1</number>
+                                        </property>
+                                        <item>
+                                            <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0">
+                                                <property name="spacing">
+                                                    <number>0</number>
+                                                </property>
+                                                <item alignment="Qt::AlignTop">
+                                                    <widget class="QTableWidget" name="tableWidget_UserInfo">
+                                                        <property name="sizePolicy">
+                                                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                <horstretch>0</horstretch>
+                                                                <verstretch>0</verstretch>
+                                                            </sizepolicy>
+                                                        </property>
+                                                        <property name="minimumSize">
+                                                            <size>
+                                                                <width>220</width>
+                                                                <height>450</height>
+                                                            </size>
+                                                        </property>
+                                                        <property name="maximumSize">
+                                                            <size>
+                                                                <width>220</width>
+                                                                <height>440</height>
+                                                            </size>
+                                                        </property>
+                                                        <property name="font">
+                                                            <font>
+                                                                <family>微软雅黑</family>
+                                                                <pointsize>12</pointsize>
+                                                            </font>
+                                                        </property>
+                                                        <property name="autoScroll">
+                                                            <bool>true</bool>
+                                                        </property>
+                                                        <property name="editTriggers">
+                                                            <set>QAbstractItemView::NoEditTriggers</set>
+                                                        </property>
+                                                        <property name="tabKeyNavigation">
+                                                            <bool>true</bool>
+                                                        </property>
+                                                        <property name="showDropIndicator" stdset="0">
+                                                            <bool>true</bool>
+                                                        </property>
+                                                        <property name="showGrid">
+                                                            <bool>false</bool>
+                                                        </property>
+                                                        <property name="rowCount">
+                                                            <number>8</number>
+                                                        </property>
+                                                        <property name="columnCount">
+                                                            <number>2</number>
+                                                        </property>
+                                                        <attribute name="horizontalHeaderVisible">
+                                                            <bool>false</bool>
+                                                        </attribute>
+                                                        <attribute name="horizontalHeaderMinimumSectionSize">
+                                                            <number>60</number>
+                                                        </attribute>
+                                                        <attribute name="horizontalHeaderDefaultSectionSize">
+                                                            <number>100</number>
+                                                        </attribute>
+                                                        <attribute name="horizontalHeaderHighlightSections">
+                                                            <bool>true</bool>
+                                                        </attribute>
+                                                        <attribute name="verticalHeaderVisible">
+                                                            <bool>false</bool>
+                                                        </attribute>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <row/>
+                                                        <column/>
+                                                        <column/>
+                                                        <item row="0" column="0">
+                                                            <property name="text">
+                                                                <string/>
+                                                            </property>
+                                                        </item>
+                                                        <item row="0" column="1">
+                                                            <property name="text">
+                                                                <string/>
+                                                            </property>
+                                                        </item>
+                                                    </widget>
+                                                </item>
+                                            </layout>
+                                        </item>
+                                        <item>
+                                            <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0">
+                                                <property name="spacing">
+                                                    <number>1</number>
+                                                </property>
+                                                <item>
+                                                    <layout class="QHBoxLayout" name="horizontalLayout_19"
+                                                            stretch="0,0">
+                                                        <property name="spacing">
+                                                            <number>1</number>
+                                                        </property>
+                                                        <item>
+                                                            <layout class="QVBoxLayout" name="verticalLayout_teacher"
+                                                                    stretch="0,0,0">
+                                                                <property name="spacing">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <item>
+                                                                    <widget class="QComboBox" name="comboBox_User">
+                                                                        <property name="minimumSize">
+                                                                            <size>
+                                                                                <width>300</width>
+                                                                                <height>30</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="maximumSize">
+                                                                            <size>
+                                                                                <width>600</width>
+                                                                                <height>30</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="font">
+                                                                            <font>
+                                                                                <family>微软雅黑</family>
+                                                                                <pointsize>12</pointsize>
+                                                                            </font>
+                                                                        </property>
+                                                                        <property name="currentIndex">
+                                                                            <number>0</number>
+                                                                        </property>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>星智博士</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>邹贵华</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>波波</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>啾啾</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>朱敏</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>刘天鹏</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>刘攀</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>薯条老师</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>糖果老师</string>
+                                                                            </property>
+                                                                        </item>
+                                                                        <item>
+                                                                            <property name="text">
+                                                                                <string>徐津</string>
+                                                                            </property>
+                                                                        </item>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QLineEdit"
+                                                                            name="lineEdit_teacher_password">
+                                                                        <property name="sizePolicy">
+                                                                            <sizepolicy hsizetype="Preferred"
+                                                                                        vsizetype="Fixed">
+                                                                                <horstretch>0</horstretch>
+                                                                                <verstretch>0</verstretch>
+                                                                            </sizepolicy>
+                                                                        </property>
+                                                                        <property name="minimumSize">
+                                                                            <size>
+                                                                                <width>300</width>
+                                                                                <height>0</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="maximumSize">
+                                                                            <size>
+                                                                                <width>600</width>
+                                                                                <height>16777215</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="font">
+                                                                            <font>
+                                                                                <family>微软雅黑</family>
+                                                                                <pointsize>12</pointsize>
+                                                                            </font>
+                                                                        </property>
+                                                                        <property name="echoMode">
+                                                                            <enum>QLineEdit::Password</enum>
+                                                                        </property>
+                                                                        <property name="placeholderText">
+                                                                            <string>输入密码</string>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                                <item>
+                                                                    <widget class="QPushButton"
+                                                                            name="pushButton_confirm">
+                                                                        <property name="minimumSize">
+                                                                            <size>
+                                                                                <width>300</width>
+                                                                                <height>30</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="maximumSize">
+                                                                            <size>
+                                                                                <width>600</width>
+                                                                                <height>30</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="font">
+                                                                            <font>
+                                                                                <family>微软雅黑</family>
+                                                                                <pointsize>12</pointsize>
+                                                                            </font>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string>确认</string>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                            </layout>
+                                                        </item>
+                                                        <item>
+                                                            <layout class="QHBoxLayout" name="horizontalLayout_20">
+                                                                <property name="spacing">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <item>
+                                                                    <widget class="QLabel" name="label_Avatar">
+                                                                        <property name="minimumSize">
+                                                                            <size>
+                                                                                <width>100</width>
+                                                                                <height>100</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="maximumSize">
+                                                                            <size>
+                                                                                <width>100</width>
+                                                                                <height>100</height>
+                                                                            </size>
+                                                                        </property>
+                                                                        <property name="font">
+                                                                            <font>
+                                                                                <family>微软雅黑</family>
+                                                                                <pointsize>12</pointsize>
+                                                                            </font>
+                                                                        </property>
+                                                                        <property name="text">
+                                                                            <string/>
+                                                                        </property>
+                                                                    </widget>
+                                                                </item>
+                                                            </layout>
+                                                        </item>
+                                                    </layout>
+                                                </item>
+                                                <item>
+                                                    <widget class="QStackedWidget" name="stackedWidget">
+                                                        <property name="sizePolicy">
+                                                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                <horstretch>0</horstretch>
+                                                                <verstretch>0</verstretch>
+                                                            </sizepolicy>
+                                                        </property>
+                                                        <property name="minimumSize">
+                                                            <size>
+                                                                <width>0</width>
+                                                                <height>0</height>
+                                                            </size>
+                                                        </property>
+                                                        <property name="font">
+                                                            <font>
+                                                                <family>微软雅黑</family>
+                                                                <pointsize>12</pointsize>
+                                                            </font>
+                                                        </property>
+                                                        <property name="currentIndex">
+                                                            <number>0</number>
+                                                        </property>
+                                                        <widget class="QWidget" name="page_Teacher">
+                                                            <layout class="QHBoxLayout" name="horizontalLayout_9">
+                                                                <property name="spacing">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="leftMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="topMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="rightMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="bottomMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <item>
+                                                                    <layout class="QVBoxLayout" name="verticalLayout_7"
+                                                                            stretch="0,0,0,0">
+                                                                        <property name="spacing">
+                                                                            <number>1</number>
+                                                                        </property>
+                                                                        <item>
+                                                                            <widget class="QWidget" name="widget_7"
+                                                                                    native="true">
+                                                                                <property name="maximumSize">
+                                                                                    <size>
+                                                                                        <width>16777215</width>
+                                                                                        <height>35</height>
+                                                                                    </size>
+                                                                                </property>
+                                                                                <property name="font">
+                                                                                    <font>
+                                                                                        <family>微软雅黑</family>
+                                                                                        <pointsize>12</pointsize>
+                                                                                    </font>
+                                                                                </property>
+                                                                                <layout class="QHBoxLayout"
+                                                                                        name="horizontalLayout_23">
+                                                                                    <property name="spacing">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="leftMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="topMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="rightMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="bottomMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <item>
+                                                                                        <layout class="QHBoxLayout"
+                                                                                                name="horizontalLayout_11"
+                                                                                                stretch="2,1">
+                                                                                            <property name="spacing">
+                                                                                                <number>1</number>
+                                                                                            </property>
+                                                                                            <item>
+                                                                                                <widget class="QComboBox"
+                                                                                                        name="comboBox_TeacherClass">
+                                                                                                    <property
+                                                                                                            name="sizePolicy">
+                                                                                                        <sizepolicy
+                                                                                                                hsizetype="Preferred"
+                                                                                                                vsizetype="Preferred">
+                                                                                                            <horstretch>
+                                                                                                                0
+                                                                                                            </horstretch>
+                                                                                                            <verstretch>
+                                                                                                                0
+                                                                                                            </verstretch>
+                                                                                                        </sizepolicy>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="minimumSize">
+                                                                                                        <size>
+                                                                                                            <width>0
+                                                                                                            </width>
+                                                                                                            <height>30
+                                                                                                            </height>
+                                                                                                        </size>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="font">
+                                                                                                        <font>
+                                                                                                            <family>
+                                                                                                                微软雅黑
+                                                                                                            </family>
+                                                                                                            <pointsize>
+                                                                                                                12
+                                                                                                            </pointsize>
+                                                                                                        </font>
+                                                                                                    </property>
+                                                                                                </widget>
+                                                                                            </item>
+                                                                                            <item>
+                                                                                                <widget class="QComboBox"
+                                                                                                        name="comboBox_TeacherStudent">
+                                                                                                    <property
+                                                                                                            name="sizePolicy">
+                                                                                                        <sizepolicy
+                                                                                                                hsizetype="Preferred"
+                                                                                                                vsizetype="Preferred">
+                                                                                                            <horstretch>
+                                                                                                                0
+                                                                                                            </horstretch>
+                                                                                                            <verstretch>
+                                                                                                                0
+                                                                                                            </verstretch>
+                                                                                                        </sizepolicy>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="minimumSize">
+                                                                                                        <size>
+                                                                                                            <width>0
+                                                                                                            </width>
+                                                                                                            <height>30
+                                                                                                            </height>
+                                                                                                        </size>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="font">
+                                                                                                        <font>
+                                                                                                            <family>
+                                                                                                                微软雅黑
+                                                                                                            </family>
+                                                                                                            <pointsize>
+                                                                                                                12
+                                                                                                            </pointsize>
+                                                                                                        </font>
+                                                                                                    </property>
+                                                                                                </widget>
+                                                                                            </item>
+                                                                                        </layout>
+                                                                                    </item>
+                                                                                </layout>
+                                                                            </widget>
+                                                                        </item>
+                                                                        <item>
+                                                                            <widget class="QWidget" name="widget_6"
+                                                                                    native="true">
+                                                                                <property name="maximumSize">
+                                                                                    <size>
+                                                                                        <width>16777215</width>
+                                                                                        <height>35</height>
+                                                                                    </size>
+                                                                                </property>
+                                                                                <property name="font">
+                                                                                    <font>
+                                                                                        <family>微软雅黑</family>
+                                                                                        <pointsize>12</pointsize>
+                                                                                    </font>
+                                                                                </property>
+                                                                                <layout class="QHBoxLayout"
+                                                                                        name="horizontalLayout_22">
+                                                                                    <property name="spacing">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="leftMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="topMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="rightMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="bottomMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <item>
+                                                                                        <layout class="QHBoxLayout"
+                                                                                                name="horizontalLayout_21">
+                                                                                            <property name="spacing">
+                                                                                                <number>1</number>
+                                                                                            </property>
+                                                                                            <property
+                                                                                                    name="sizeConstraint">
+                                                                                                <enum>
+                                                                                                    QLayout::SetDefaultConstraint
+                                                                                                </enum>
+                                                                                            </property>
+                                                                                            <item>
+                                                                                                <widget class="QPushButton"
+                                                                                                        name="pushButton_publishStoryTask">
+                                                                                                    <property
+                                                                                                            name="font">
+                                                                                                        <font>
+                                                                                                            <family>
+                                                                                                                微软雅黑
+                                                                                                            </family>
+                                                                                                            <pointsize>
+                                                                                                                12
+                                                                                                            </pointsize>
+                                                                                                        </font>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="text">
+                                                                                                        <string>发布剧情任务
+                                                                                                        </string>
+                                                                                                    </property>
+                                                                                                </widget>
+                                                                                            </item>
+                                                                                            <item>
+                                                                                                <widget class="QPushButton"
+                                                                                                        name="pushButton_publishChallengeTask">
+                                                                                                    <property
+                                                                                                            name="font">
+                                                                                                        <font>
+                                                                                                            <family>
+                                                                                                                微软雅黑
+                                                                                                            </family>
+                                                                                                            <pointsize>
+                                                                                                                12
+                                                                                                            </pointsize>
+                                                                                                        </font>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="text">
+                                                                                                        <string>发布挑战任务
+                                                                                                        </string>
+                                                                                                    </property>
+                                                                                                </widget>
+                                                                                            </item>
+                                                                                            <item>
+                                                                                                <widget class="QPushButton"
+                                                                                                        name="pushButton_publishBountyTask">
+                                                                                                    <property
+                                                                                                            name="sizePolicy">
+                                                                                                        <sizepolicy
+                                                                                                                hsizetype="Preferred"
+                                                                                                                vsizetype="Preferred">
+                                                                                                            <horstretch>
+                                                                                                                0
+                                                                                                            </horstretch>
+                                                                                                            <verstretch>
+                                                                                                                0
+                                                                                                            </verstretch>
+                                                                                                        </sizepolicy>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="font">
+                                                                                                        <font>
+                                                                                                            <family>
+                                                                                                                微软雅黑
+                                                                                                            </family>
+                                                                                                            <pointsize>
+                                                                                                                12
+                                                                                                            </pointsize>
+                                                                                                        </font>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="text">
+                                                                                                        <string>发布赏金任务
+                                                                                                        </string>
+                                                                                                    </property>
+                                                                                                </widget>
+                                                                                            </item>
+                                                                                        </layout>
+                                                                                    </item>
+                                                                                </layout>
+                                                                            </widget>
+                                                                        </item>
+                                                                        <item>
+                                                                            <widget class="QWidget" name="widget_9"
+                                                                                    native="true">
+                                                                                <layout class="QHBoxLayout"
+                                                                                        name="horizontalLayout_6">
+                                                                                    <property name="spacing">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="leftMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="topMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="rightMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="bottomMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <item>
+                                                                                        <widget class="QPushButton"
+                                                                                                name="pushButton_classmode">
+                                                                                            <property name="sizePolicy">
+                                                                                                <sizepolicy
+                                                                                                        hsizetype="Preferred"
+                                                                                                        vsizetype="Preferred">
+                                                                                                    <horstretch>0
+                                                                                                    </horstretch>
+                                                                                                    <verstretch>0
+                                                                                                    </verstretch>
+                                                                                                </sizepolicy>
+                                                                                            </property>
+                                                                                            <property
+                                                                                                    name="maximumSize">
+                                                                                                <size>
+                                                                                                    <width>16777215
+                                                                                                    </width>
+                                                                                                    <height>30</height>
+                                                                                                </size>
+                                                                                            </property>
+                                                                                            <property name="text">
+                                                                                                <string>上课</string>
+                                                                                            </property>
+                                                                                        </widget>
+                                                                                    </item>
+                                                                                    <item>
+                                                                                        <widget class="QPushButton"
+                                                                                                name="pushButton_afterclassmode">
+                                                                                            <property name="sizePolicy">
+                                                                                                <sizepolicy
+                                                                                                        hsizetype="Preferred"
+                                                                                                        vsizetype="Preferred">
+                                                                                                    <horstretch>0
+                                                                                                    </horstretch>
+                                                                                                    <verstretch>0
+                                                                                                    </verstretch>
+                                                                                                </sizepolicy>
+                                                                                            </property>
+                                                                                            <property
+                                                                                                    name="maximumSize">
+                                                                                                <size>
+                                                                                                    <width>16777215
+                                                                                                    </width>
+                                                                                                    <height>30</height>
+                                                                                                </size>
+                                                                                            </property>
+                                                                                            <property name="text">
+                                                                                                <string>课后</string>
+                                                                                            </property>
+                                                                                        </widget>
+                                                                                    </item>
+                                                                                    <item>
+                                                                                        <widget class="QPushButton"
+                                                                                                name="pushButton_Lottery">
+                                                                                            <property
+                                                                                                    name="maximumSize">
+                                                                                                <size>
+                                                                                                    <width>16777215
+                                                                                                    </width>
+                                                                                                    <height>30</height>
+                                                                                                </size>
+                                                                                            </property>
+                                                                                            <property name="text">
+                                                                                                <string>抽奖</string>
+                                                                                            </property>
+                                                                                        </widget>
+                                                                                    </item>
+                                                                                </layout>
+                                                                            </widget>
+                                                                        </item>
+                                                                        <item>
+                                                                            <widget class="QWidget" name="widget_3"
+                                                                                    native="true">
+                                                                                <property name="minimumSize">
+                                                                                    <size>
+                                                                                        <width>0</width>
+                                                                                        <height>200</height>
+                                                                                    </size>
+                                                                                </property>
+                                                                                <layout class="QHBoxLayout"
+                                                                                        name="horizontalLayout_5">
+                                                                                    <property name="spacing">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="leftMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="topMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="rightMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <property name="bottomMargin">
+                                                                                        <number>1</number>
+                                                                                    </property>
+                                                                                    <item>
+                                                                                        <layout class="QHBoxLayout"
+                                                                                                name="horizontalLayout_3"
+                                                                                                stretch="2,1">
+                                                                                            <property name="spacing">
+                                                                                                <number>0</number>
+                                                                                            </property>
+                                                                                            <item>
+                                                                                                <layout class="QVBoxLayout"
+                                                                                                        name="verticalLayout_4">
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_2">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_1">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_1">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_1">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_7">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_2">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_2">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_2">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_8">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_3">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_3">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_3">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_14">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_4">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_4">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_4">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_16">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_5">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_5">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_5">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_17">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_6">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_6">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_6">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_24">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_7">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_7">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_7">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <layout class="QHBoxLayout"
+                                                                                                                name="horizontalLayout_33">
+                                                                                                            <item>
+                                                                                                                <widget class="QLabel"
+                                                                                                                        name="label_student_15">
+                                                                                                                    <property
+                                                                                                                            name="maximumSize">
+                                                                                                                        <size>
+                                                                                                                            <width>
+                                                                                                                                16777215
+                                                                                                                            </width>
+                                                                                                                            <height>
+                                                                                                                                30
+                                                                                                                            </height>
+                                                                                                                        </size>
+                                                                                                                    </property>
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string/>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonTrue_student_8">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                            <item>
+                                                                                                                <widget class="QRadioButton"
+                                                                                                                        name="radioButtonFalse_student_8">
+                                                                                                                    <property
+                                                                                                                            name="text">
+                                                                                                                        <string>
+                                                                                                                            未到课
+                                                                                                                        </string>
+                                                                                                                    </property>
+                                                                                                                </widget>
+                                                                                                            </item>
+                                                                                                        </layout>
+                                                                                                    </item>
+                                                                                                </layout>
+                                                                                            </item>
+                                                                                            <item>
+                                                                                                <layout class="QVBoxLayout"
+                                                                                                        name="verticalLayout_5">
+                                                                                                    <property
+                                                                                                            name="spacing">
+                                                                                                        <number>0
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <item>
+                                                                                                        <widget class="QPushButton"
+                                                                                                                name="pushButton">
+                                                                                                            <property
+                                                                                                                    name="text">
+                                                                                                                <string>
+                                                                                                                    全部到课
+                                                                                                                </string>
+                                                                                                            </property>
+                                                                                                        </widget>
+                                                                                                    </item>
+                                                                                                    <item>
+                                                                                                        <widget class="QPushButton"
+                                                                                                                name="pushButton_2">
+                                                                                                            <property
+                                                                                                                    name="text">
+                                                                                                                <string>
+                                                                                                                    开始上课
+                                                                                                                </string>
+                                                                                                            </property>
+                                                                                                        </widget>
+                                                                                                    </item>
+                                                                                                </layout>
+                                                                                            </item>
+                                                                                        </layout>
+                                                                                    </item>
+                                                                                </layout>
+                                                                            </widget>
+                                                                        </item>
+                                                                    </layout>
+                                                                </item>
+                                                            </layout>
+                                                        </widget>
+                                                        <widget class="QWidget" name="page_StudentManager">
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>0</width>
+                                                                    <height>350</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>600</width>
+                                                                    <height>350</height>
+                                                                </size>
+                                                            </property>
+                                                            <layout class="QHBoxLayout" name="horizontalLayout_12">
+                                                                <property name="spacing">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="leftMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="topMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="rightMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <property name="bottomMargin">
+                                                                    <number>1</number>
+                                                                </property>
+                                                                <item>
+                                                                    <layout class="QVBoxLayout" name="verticalLayout_6"
+                                                                            stretch="1,6">
+                                                                        <property name="spacing">
+                                                                            <number>0</number>
+                                                                        </property>
+                                                                        <item>
+                                                                            <layout class="QHBoxLayout"
+                                                                                    name="horizontalLayout_10"
+                                                                                    stretch="1,3,0">
+                                                                                <item>
+                                                                                    <widget class="QComboBox"
+                                                                                            name="comboBox_Teacher">
+                                                                                        <property name="minimumSize">
+                                                                                            <size>
+                                                                                                <width>0</width>
+                                                                                                <height>30</height>
+                                                                                            </size>
+                                                                                        </property>
+                                                                                        <property name="font">
+                                                                                            <font>
+                                                                                                <family>微软雅黑</family>
+                                                                                                <pointsize>12
+                                                                                                </pointsize>
+                                                                                            </font>
+                                                                                        </property>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>魏泽宇</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>波波</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>啾啾</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>朱敏</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>刘天鹏</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>刘攀</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>薯条老师</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>糖果老师</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <property name="text">
+                                                                                                <string>徐津</string>
+                                                                                            </property>
+                                                                                        </item>
+                                                                                    </widget>
+                                                                                </item>
+                                                                                <item>
+                                                                                    <widget class="QComboBox"
+                                                                                            name="comboBox_Class">
+                                                                                        <property name="minimumSize">
+                                                                                            <size>
+                                                                                                <width>0</width>
+                                                                                                <height>30</height>
+                                                                                            </size>
+                                                                                        </property>
+                                                                                        <property name="font">
+                                                                                            <font>
+                                                                                                <family>微软雅黑</family>
+                                                                                                <pointsize>12
+                                                                                                </pointsize>
+                                                                                            </font>
+                                                                                        </property>
+                                                                                    </widget>
+                                                                                </item>
+                                                                                <item>
+                                                                                    <widget class="QComboBox"
+                                                                                            name="comboBox_Student">
+                                                                                        <property name="minimumSize">
+                                                                                            <size>
+                                                                                                <width>0</width>
+                                                                                                <height>30</height>
+                                                                                            </size>
+                                                                                        </property>
+                                                                                        <property name="font">
+                                                                                            <font>
+                                                                                                <family>微软雅黑</family>
+                                                                                                <pointsize>12
+                                                                                                </pointsize>
+                                                                                            </font>
+                                                                                        </property>
+                                                                                    </widget>
+                                                                                </item>
+                                                                            </layout>
+                                                                        </item>
+                                                                        <item>
+                                                                            <layout class="QVBoxLayout"
+                                                                                    name="verticalLayout_9">
+                                                                                <property name="spacing">
+                                                                                    <number>1</number>
+                                                                                </property>
+                                                                                <item>
+                                                                                    <layout class="QHBoxLayout"
+                                                                                            name="horizontalLayout_29"
+                                                                                            stretch="7,3">
+                                                                                        <property name="spacing">
+                                                                                            <number>1</number>
+                                                                                        </property>
+                                                                                        <item>
+                                                                                            <widget class="QWidget"
+                                                                                                    name="widget_2"
+                                                                                                    native="true">
+                                                                                                <property name="font">
+                                                                                                    <font>
+                                                                                                        <pointsize>12
+                                                                                                        </pointsize>
+                                                                                                    </font>
+                                                                                                </property>
+                                                                                                <layout class="QHBoxLayout"
+                                                                                                        name="horizontalLayout_18">
+                                                                                                    <property
+                                                                                                            name="spacing">
+                                                                                                        <number>1
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="leftMargin">
+                                                                                                        <number>0
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="topMargin">
+                                                                                                        <number>0
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="rightMargin">
+                                                                                                        <number>0
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <property
+                                                                                                            name="bottomMargin">
+                                                                                                        <number>0
+                                                                                                        </number>
+                                                                                                    </property>
+                                                                                                    <item>
+                                                                                                        <widget class="QTableWidget"
+                                                                                                                name="tableWidget_TaskInfo">
+                                                                                                            <property
+                                                                                                                    name="sizePolicy">
+                                                                                                                <sizepolicy
+                                                                                                                        hsizetype="Preferred"
+                                                                                                                        vsizetype="Preferred">
+                                                                                                                    <horstretch>
+                                                                                                                        0
+                                                                                                                    </horstretch>
+                                                                                                                    <verstretch>
+                                                                                                                        0
+                                                                                                                    </verstretch>
+                                                                                                                </sizepolicy>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="minimumSize">
+                                                                                                                <size>
+                                                                                                                    <width>
+                                                                                                                        270
+                                                                                                                    </width>
+                                                                                                                    <height>
+                                                                                                                        300
+                                                                                                                    </height>
+                                                                                                                </size>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="maximumSize">
+                                                                                                                <size>
+                                                                                                                    <width>
+                                                                                                                        270
+                                                                                                                    </width>
+                                                                                                                    <height>
+                                                                                                                        300
+                                                                                                                    </height>
+                                                                                                                </size>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="font">
+                                                                                                                <font>
+                                                                                                                    <family>
+                                                                                                                        微软雅黑
+                                                                                                                    </family>
+                                                                                                                    <pointsize>
+                                                                                                                        6
+                                                                                                                    </pointsize>
+                                                                                                                </font>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="editTriggers">
+                                                                                                                <set>
+                                                                                                                    QAbstractItemView::NoEditTriggers
+                                                                                                                </set>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="showGrid">
+                                                                                                                <bool>
+                                                                                                                    false
+                                                                                                                </bool>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="rowCount">
+                                                                                                                <number>
+                                                                                                                    6
+                                                                                                                </number>
+                                                                                                            </property>
+                                                                                                            <property
+                                                                                                                    name="columnCount">
+                                                                                                                <number>
+                                                                                                                    2
+                                                                                                                </number>
+                                                                                                            </property>
+                                                                                                            <attribute
+                                                                                                                    name="horizontalHeaderVisible">
+                                                                                                                <bool>
+                                                                                                                    false
+                                                                                                                </bool>
+                                                                                                            </attribute>
+                                                                                                            <attribute
+                                                                                                                    name="horizontalHeaderHighlightSections">
+                                                                                                                <bool>
+                                                                                                                    true
+                                                                                                                </bool>
+                                                                                                            </attribute>
+                                                                                                            <attribute
+                                                                                                                    name="verticalHeaderVisible">
+                                                                                                                <bool>
+                                                                                                                    false
+                                                                                                                </bool>
+                                                                                                            </attribute>
+                                                                                                            <row/>
+                                                                                                            <row/>
+                                                                                                            <row/>
+                                                                                                            <row/>
+                                                                                                            <row/>
+                                                                                                            <row/>
+                                                                                                            <column/>
+                                                                                                            <column/>
+                                                                                                        </widget>
+                                                                                                    </item>
+                                                                                                </layout>
+                                                                                            </widget>
+                                                                                        </item>
+                                                                                        <item>
+                                                                                            <layout class="QVBoxLayout"
+                                                                                                    name="verticalLayout_8">
+                                                                                                <property
+                                                                                                        name="spacing">
+                                                                                                    <number>1</number>
+                                                                                                </property>
+                                                                                                <item>
+                                                                                                    <widget class="QPushButton"
+                                                                                                            name="pushButton_finishChallengeTask">
+                                                                                                        <property
+                                                                                                                name="font">
+                                                                                                            <font>
+                                                                                                                <pointsize>
+                                                                                                                    11
+                                                                                                                </pointsize>
+                                                                                                            </font>
+                                                                                                        </property>
+                                                                                                        <property
+                                                                                                                name="text">
+                                                                                                            <string>
+                                                                                                                本期挑战任务结束
+                                                                                                            </string>
+                                                                                                        </property>
+                                                                                                    </widget>
+                                                                                                </item>
+                                                                                                <item>
+                                                                                                    <widget class="QPushButton"
+                                                                                                            name="pushButton_finishBountyTask">
+                                                                                                        <property
+                                                                                                                name="font">
+                                                                                                            <font>
+                                                                                                                <pointsize>
+                                                                                                                    11
+                                                                                                                </pointsize>
+                                                                                                            </font>
+                                                                                                        </property>
+                                                                                                        <property
+                                                                                                                name="text">
+                                                                                                            <string>
+                                                                                                                本期赏金任务结束
+                                                                                                            </string>
+                                                                                                        </property>
+                                                                                                    </widget>
+                                                                                                </item>
+                                                                                                <item>
+                                                                                                    <widget class="QPushButton"
+                                                                                                            name="pushButton_refreshLevel">
+                                                                                                        <property
+                                                                                                                name="font">
+                                                                                                            <font>
+                                                                                                                <pointsize>
+                                                                                                                    11
+                                                                                                                </pointsize>
+                                                                                                            </font>
+                                                                                                        </property>
+                                                                                                        <property
+                                                                                                                name="text">
+                                                                                                            <string>
+                                                                                                                刷新等级
+                                                                                                            </string>
+                                                                                                        </property>
+                                                                                                    </widget>
+                                                                                                </item>
+                                                                                                <item>
+                                                                                                    <widget class="QPushButton"
+                                                                                                            name="pushButton_refreshDesignation">
+                                                                                                        <property
+                                                                                                                name="font">
+                                                                                                            <font>
+                                                                                                                <pointsize>
+                                                                                                                    11
+                                                                                                                </pointsize>
+                                                                                                            </font>
+                                                                                                        </property>
+                                                                                                        <property
+                                                                                                                name="text">
+                                                                                                            <string>
+                                                                                                                刷新称号
+                                                                                                            </string>
+                                                                                                        </property>
+                                                                                                    </widget>
+                                                                                                </item>
+                                                                                            </layout>
+                                                                                        </item>
+                                                                                    </layout>
+                                                                                </item>
+                                                                            </layout>
+                                                                        </item>
+                                                                    </layout>
+                                                                </item>
+                                                            </layout>
+                                                        </widget>
+                                                        <widget class="QWidget" name="page_blank"/>
+                                                    </widget>
+                                                </item>
+                                                <item>
+                                                    <layout class="QHBoxLayout" name="horizontalLayout_submit">
+                                                        <property name="spacing">
+                                                            <number>1</number>
+                                                        </property>
+                                                    </layout>
+                                                </item>
+                                            </layout>
+                                        </item>
+                                    </layout>
+                                </item>
+                            </layout>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
